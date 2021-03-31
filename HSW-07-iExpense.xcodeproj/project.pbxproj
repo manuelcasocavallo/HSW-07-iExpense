@@ -11,6 +11,8 @@
 		FA54BAA32614BB0E00E08681 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54BAA22614BB0E00E08681 /* ContentView.swift */; };
 		FA54BAA52614BB0E00E08681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA54BAA42614BB0E00E08681 /* Assets.xcassets */; };
 		FA54BAA82614BB0E00E08681 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA54BAA72614BB0E00E08681 /* Preview Assets.xcassets */; };
+		FA54BAB12614C89200E08681 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54BAB02614C89200E08681 /* ExpenseItem.swift */; };
+		FA54BAB42614C8E000E08681 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54BAB32614C8E000E08681 /* Expenses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FA54BAA42614BB0E00E08681 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA54BAA72614BB0E00E08681 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA54BAA92614BB0E00E08681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA54BAB02614C89200E08681 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		FA54BAB32614C8E000E08681 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				FA54BAA02614BB0E00E08681 /* HSW_07_iExpenseApp.swift */,
 				FA54BAA22614BB0E00E08681 /* ContentView.swift */,
+				FA54BAB02614C89200E08681 /* ExpenseItem.swift */,
+				FA54BAB32614C8E000E08681 /* Expenses.swift */,
 				FA54BAA42614BB0E00E08681 /* Assets.xcassets */,
 				FA54BAA92614BB0E00E08681 /* Info.plist */,
 				FA54BAA62614BB0E00E08681 /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA54BAB42614C8E000E08681 /* Expenses.swift in Sources */,
 				FA54BAA32614BB0E00E08681 /* ContentView.swift in Sources */,
+				FA54BAB12614C89200E08681 /* ExpenseItem.swift in Sources */,
 				FA54BAA12614BB0E00E08681 /* HSW_07_iExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
